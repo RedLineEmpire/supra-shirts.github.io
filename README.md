@@ -1,2 +1,2 @@
-# supra-shirts.github.io
-Custom website for my Supra T-shirt store
+# RedLine-Empire.github.io
+Custom website for my Redline Emoire store
