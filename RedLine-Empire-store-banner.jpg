@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find the best car-themed apparel and accessories!">
+    <title>RedLine Empire - Official Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #d40000;
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .shop-btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #d40000;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .shop-btn:hover {
+            background-color: #a00000;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner Image -->
+    <img class="banner" src="https://ibb.co/27XML8Fp" alt="Store Banner">
+    
+    <div class="container">
+        <h1>🔥 Welcome to RedLine Empire! 🔥</h1>
+        <p>Find the best car-themed apparel and accessories!</p>
+    </div>
+
+    <!-- Product Section -->
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://redlineempire.creator-spring.com/listing/supra-mk5-beast-street-read?product=212&variation=5818" alt="Product 1">
+            <h2>Supra T-Shirt</h2>
+            <p>$29.99</p>
+            <a class="shop-btn" href="https://redlineempire.creator-spring.com" target="_blank">Shop Now</a>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://redlineempire.creator-spring.com/listing/supra-mk5-beast-street-read?product=1565&variation=104920" alt="Product 2">
+            <h2>JDM Hoodie</h2>
+            <p>$39.99</p>
+            <a class="shop-btn" href="https://redlineempire.creator-spring.com" target="_blank">Shop Now</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://redlineempire.creator-spring.com/listing/supra-mk5-beast-street-read?product=87&variation=2324" alt="Product 3">
+            <h2>Car Culture Cap</h2>
+            <p>$19.99</p>
+            <a class="shop-btn" href="https://redlineempire.creator-spring.com" target="_blank">Shop Now</a>
+        </div>
+    </div>
+</body>
+</html>
